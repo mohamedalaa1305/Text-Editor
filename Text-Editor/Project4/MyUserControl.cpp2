@@ -1,0 +1,14 @@
+#include "MyUserControl.h"
+
+using namespace System::IO;
+using namespace Project4;
+using namespace System::Runtime::InteropServices;
+
+[DllImport("msvcrt.dll")]extern "C" int __stdcall MessageBoxW(struct HWND__ *, wchar_t const *, wchar_t const *, unsigned int);
+[STAThreadAttribute]
+int main(array<System::String ^> ^args)
+{
+	Application::EnableVisualStyles();
+	Application::SetCompatibleTextRenderingDefault(false);
+	return 0;
+}

@@ -1,0 +1,4 @@
+﻿  MyForm.cpp
+c:\users\muhammedabdallamuham\source\repos\project4\project4\myform1.h(859): warning C4101: 'ex': unreferenced local variable
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project4.vcxproj -> C:\Users\MuhammedAbdallamuham\source\repos\Project4\Debug\Project4.exe
